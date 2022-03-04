@@ -13,3 +13,7 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "subnet_id" {
+  description = "Subnet ID in AWS"
+  default     = "subnet-07ae2099c8adfbaf2"
+}
